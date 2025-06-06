@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Slab:wght@100..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  line-height: 1.6rem;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+header {
+  background-color: #004080;
+  color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #00d9ff;
+}
+
+section {
+  padding: 6rem 2rem 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 8px;
+  background-color: aliceblue;
+}
+
+h2 {
+  color: #004080;
+  margin-bottom: 1rem;
+}
+
+p {
+  color: #333;
+  font-size: 1.1rem;
+}
+
+#titulo1 {
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  background-color: #004080;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+
+#problema {
+  background-color: #00d9ff;
+  border-radius: 8px;
+  border-bottom:2px solid #333;
+}
+
+
+#objetivos {
+  background-color: #00d9ff;
+  border-radius: 8px;
+  border-bottom:2px solid #333 ;
+}
+
+#beneficios {
+  background-color: #00d9ff;
+  border-radius: 8px;
+  border-bottom: 2px solid #333;
+}
+
+#img01 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px #004080;
+}
+
+#img02 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px black;
+}
+
+#img03 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px #004080;
+}
+
+#img04 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px black;
+}
+
+#img05 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px #004080;
+}
+
+#img06 {
+  height: 400px;
+  width: 700px;
+  border-radius: 8px;
+  box-shadow: 2px 3px 3px black;
+}
